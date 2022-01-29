@@ -19,7 +19,7 @@
       <div
         class="m-auto font-body text-base text-slate-100 md:text-xl xl:text-2xl">
         <img
-          src="./static/images/avatar.svg"
+          src="/images/avatar.svg"
           alt="an arrow"
           class="m-auto mt-14 mb-5 w-28 md:w-40 lg:mt-16 xl:mt-20" />
         <p class="max-w-xl px-5 text-center md:leading-relaxed lg:px-0">
@@ -54,7 +54,7 @@
         <p>Scroll down!</p>
       </div>
       <img
-        src="./static/images/arrow-down.svg"
+        src="/images/arrow-down.svg"
         alt="an arrow"
         class="m-auto mt-0 w-10" />
     </div>
