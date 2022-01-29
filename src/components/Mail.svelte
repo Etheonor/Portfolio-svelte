@@ -2,7 +2,7 @@
   width="32"
   height="32"
   viewBox="0 0 32 32"
-  class="fill-stone-900 transition duration-200 ease-in-out
+  class="fill-stone-800 transition duration-200 ease-in-out
    hover:fill-amber-500"
   xmlns="http://www.w3.org/2000/svg">
   <path

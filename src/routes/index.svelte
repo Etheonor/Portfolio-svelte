@@ -6,35 +6,33 @@
   import Mail from '../components/Mail.svelte';
   import Linkedin from '../components/Linkedin.svelte';
   import Twitter from '../components/Twitter.svelte';
+  import Project from '../components/Project.svelte';
 </script>
 
 <svelte:head>
   <title>📓 My Portfolio</title>
 </svelte:head>
 
-<section class="flex flex-row">
-  <div class="flex h-screen w-full flex-col bg-stone-900">
+<section class="flex h-screen flex-row">
+  <div class="flex w-full flex-col bg-stone-800 text-slate-100">
     <div
       class="m-auto grid h-screen w-full grid-flow-col auto-rows-max grid-rows-3">
-      <div
-        class="m-auto font-body text-base text-slate-100 md:text-xl xl:text-2xl">
+      <div class="m-auto font-body text-base md:text-xl xl:text-2xl">
         <img
           src="/images/avatar.svg"
           alt="an arrow"
-          class="m-auto mt-14 mb-5 w-28 md:w-40 lg:mt-16 xl:mt-20" />
+          class="m-auto mt-14 mb-5 w-28 md:w-32 lg:mt-16 xl:mt-20" />
         <p class="max-w-xl px-5 text-center md:leading-relaxed lg:px-0">
           I’m <span class="text-amber-500">Michael</span>, a web developer
           available to work with you on your next awesome website.
         </p>
       </div>
-      <p class="m-auto font-title text-big font-bold text-slate-100 sm:mr-5">
-        H
-      </p>
+      <p class="m-auto font-title text-big font-bold  sm:mr-5">H</p>
       <div class="m-auto" />
     </div>
   </div>
   <div
-    class="grid h-screen w-full grid-flow-col auto-rows-max grid-rows-3 bg-slate-100">
+    class="grid w-full grid-flow-col auto-rows-max grid-rows-3 bg-slate-100 text-stone-800">
     <div class="m-auto mr-10 mt-10 flex space-x-4 ">
       <a href="/contact"><Mail /></a>
       <a href="https://www.twitter.com/michael_webdev" target="_blank">
@@ -46,7 +44,7 @@
         <Linkedin />
       </a>
     </div>
-    <p class="m-auto font-title text-big font-bold text-stone-900 sm:ml-5">I</p>
+    <p class="m-auto font-title text-big font-bold sm:ml-5">I</p>
     <div class="m-auto flex flex-col px-5 text-center">
       <div
         class="m-auto mb-5 max-w-xl px-5 text-center font-body text-base md:text-xl lg:px-0 xl:text-2xl">
@@ -60,3 +58,36 @@
     </div>
   </div>
 </section>
+<Project
+  project="Multy"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Duis a sagittis lorem, ut porta libero. Etiam congue cursus ornare. 
+  Ut enim felis, venenatis ac porta pellentesque, finibus pellentesque ante. 
+  Donec euismod malesuada tortor, at efficitur dolor. Interdum et malesuada 
+  fames ac ante ipsum primis in faucibus. Sed erat nisl, egestas vitae tortor elementum, 
+  dignissim vestibulum metus. Proin sodales blandit eleifend. Nunc posuere dui ut suscipit interdum."
+  image="/images/multy.png"
+  link="https://www.multy.me"
+  bg="dark" />
+<Project
+  project="SupaNexTail"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Duis a sagittis lorem, ut porta libero. Etiam congue cursus ornare. 
+  Ut enim felis, venenatis ac porta pellentesque, finibus pellentesque ante. 
+  Donec euismod malesuada tortor, at efficitur dolor. Interdum et malesuada 
+  fames ac ante ipsum primis in faucibus. Sed erat nisl, egestas vitae tortor elementum, 
+  dignissim vestibulum metus. Proin sodales blandit eleifend. Nunc posuere dui ut suscipit interdum."
+  image="/images/supanextail.png"
+  link="https://www.supanextail.dev"
+  bg="light" />
+<Project
+  project="Travelogue"
+  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+  Duis a sagittis lorem, ut porta libero. Etiam congue cursus ornare. 
+  Ut enim felis, venenatis ac porta pellentesque, finibus pellentesque ante. 
+  Donec euismod malesuada tortor, at efficitur dolor. Interdum et malesuada 
+  fames ac ante ipsum primis in faucibus. Sed erat nisl, egestas vitae tortor elementum, 
+  dignissim vestibulum metus. Proin sodales blandit eleifend. Nunc posuere dui ut suscipit interdum."
+  image="/images/travelogue.png"
+  link="https://www.travelogue.earth"
+  bg="dark" />
